@@ -58,6 +58,7 @@ export const RESUME_DATA = {
       end: "2021",
       description:
         "Designed and Developed various components of Data Lake → AWS S3 Ingestions, Data Partitioner, Snowflake Ingestions, Simulator environment for performance tuning and error reduction.",
+      description2: "",
     },
     {
       company: "",
@@ -67,6 +68,7 @@ export const RESUME_DATA = {
       end: "2020",
       description:
         "Contributed to the core backend metadata services for data cataloging, governance, and refinement for early stage enterprise Data Lake platform. Migrated ingest framework from MapReduce to Apache Flink.",
+      description2: "",
     },
     {
       company: "The University of Texas at Dallas",
@@ -76,6 +78,7 @@ export const RESUME_DATA = {
       end: "2017",
       description:
         "Developed competency among 500+ students and 300+ industry professionals by conducting hands-on workshops and seminars on Big Data technologies.",
+      description2: "",
     },
     {
       company: "Infosys Limited",
@@ -85,6 +88,7 @@ export const RESUME_DATA = {
       end: "2015",
       description:
         "Developed, optimized and delivered processed extracts on a Data Warehouse ETL platform → Network Decision Support Database for Telstra Corporation, Australia.",
+      description2: "",
     },
     {
       company: "",
@@ -94,6 +98,7 @@ export const RESUME_DATA = {
       end: "May 2013",
       description:
         "Developed Online Shopping Cart that markets seasonal clothes to customers based on their geolocation. Rapidly prototyped new capabilities to ensure feasibility of the project.",
+      description2: "",
     },
   ],
   education: [

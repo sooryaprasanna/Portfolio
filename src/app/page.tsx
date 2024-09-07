@@ -153,9 +153,9 @@ export default function Page() {
                   key={project.title}
                   title={project.title}
                   description={project.description}
+                  description2={""}
                   tags={project.techStack}
-                  link={"link" in project ? project.link.href : undefined}
-                />
+                  link={"link" in project ? project.link.href : undefined}/>
               );
             })}
           </div>
