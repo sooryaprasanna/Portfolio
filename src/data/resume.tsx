@@ -1,6 +1,6 @@
 import { ResumeIcon } from "@/components/icons/ResumeIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
-import { Github, Globe } from "lucide-react";
+import { Github, Globe, MailIcon } from "lucide-react";
 
 export const RESUME_DATA = {
   name: "Soorya Prasanna Ravichandran",
@@ -14,17 +14,11 @@ export const RESUME_DATA = {
   avatarUrl: "https://avatars.githubusercontent.com/u/16794616",
   personalWebsiteUrl: "https://www.sooryaprasanna.com/",
   contact: {
-    email: "https://iamsoorya.blogspot.com/p/connect.html",
     social: [
       {
-        name: "Resume",
-        url: "https://www.dropbox.com/scl/fi/hutr3jp2s7l0ljiqcmm5l/Resume.pdf",
-        icon: ResumeIcon,
-      },
-      {
-        name: "Portfolio",
-        url: "https://iamsoorya.blogspot.com/",
-        icon: Globe,
+        name: "Email",
+        url: "https://iamsoorya.blogspot.com/p/connect.html",
+        icon: MailIcon,
       },
       {
         name: "LinkedIn",
@@ -35,6 +29,16 @@ export const RESUME_DATA = {
         name: "GitHub",
         url: "https://github.com/sooryaprasanna",
         icon: Github,
+      },
+      {
+        name: "Resume",
+        url: "https://drive.google.com/file/d/13bz8deeEcQ6Mog-6oSPAT1B4fpBis409/view",
+        icon: ResumeIcon,
+      },
+      {
+        name: "Portfolio",
+        url: "https://iamsoorya.blogspot.com/",
+        icon: Globe,
       },
     ],
   },
@@ -317,7 +321,7 @@ export const RESUME_DATA = {
       description: "Personal webpage built using Next.js, deployed on Vercel.",
       link: {
         label: "",
-        href: "https://www.sooryaprasanna.com/",
+        href: "https://github.com/sooryaprasanna/Portfolio",
       },
     },
   ],
