@@ -7,6 +7,8 @@ import { GlobeIcon, MailIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume";
 import { ProjectCard } from "@/components/project-card";
+import React from "react";
+import { Divider } from "@nextui-org/divider";
 
 export const metadata: Metadata = {
   title: `${RESUME_DATA.name} | ${RESUME_DATA.title}`,
@@ -43,7 +45,8 @@ export default function Page() {
                   asChild
                 >
                   <a 
-                  href={`mailto:${RESUME_DATA.contact.email}`}                target="_blank"
+                  href={RESUME_DATA.contact.email}                
+                  target="_blank"
                   rel="noopener noreferrer">
                     <MailIcon className="size-4" />
                   </a>
@@ -67,7 +70,8 @@ export default function Page() {
             </div>
             <div className="hidden flex-col gap-x-1 text-sm text-muted-foreground print:flex">
               {RESUME_DATA.contact.email ? (
-                <a href={`mailto:${RESUME_DATA.contact.email}`}                 target="_blank"
+                <a href={RESUME_DATA.contact.email}                 
+                target="_blank"
                 rel="noopener noreferrer">
                   <span className="underline">{RESUME_DATA.contact.email}</span>
                 </a>
@@ -83,6 +87,7 @@ export default function Page() {
           <p className="text-pretty text-sm text-muted-foreground">
             {RESUME_DATA.about}
           </p>
+          <Divider className="my-4" />
           <h2 className="text-lg font-bold">Work Experience 👨🏻‍💻</h2>
           {RESUME_DATA.work.map((work) => {
             return (
@@ -90,7 +95,8 @@ export default function Page() {
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base leading-none">
-                      <a className="hover:underline" href={work.link}                 target="_blank"
+                      <a className="hover:underline" href={work.link}                 
+                      target="_blank"
                       rel="noopener noreferrer">
                         {work.company}
                       </a>
@@ -114,6 +120,7 @@ export default function Page() {
               </Card>
             );
           })}
+          <Divider className="my-4" />
           <h2 className="text-lg font-bold">Education 👨🏻‍🎓</h2>
           {RESUME_DATA.education.map((education) => {
             return (
@@ -132,19 +139,42 @@ export default function Page() {
               </Card>
             );
           })}
+          <Divider className="my-4" />
+          <h2 className="text-lg font-bold">Mentorship 👏🏽</h2>
+          {RESUME_DATA.mentorship.map((mentorship) => {
+            return (
+              <Card key={mentorship.title}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base leading-none">
+                    {mentorship.title}
+                    </h3>
+                    <h4 className="text-xs leading-none text-gray-500">
+                    {mentorship.start} - {mentorship.end}
+                  </h4>
+                  </div>
+                </CardHeader>
+                <CardContent className="mt-2 text-xs">
+                  {mentorship.description}
+                </CardContent>
+              </Card>
+            );
+          })}
+          <Divider className="my-4" />
           <h2 className="text-lg font-bold">Programming 🥷🏻</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.programming.map((programming) => {
               return <Badge key={programming}>{programming}</Badge>;
             })}
           </div>
+          <Divider className="my-4" />
           <h2 className="text-lg font-bold">Technologies 🛠️</h2>
           <div className="flex flex-wrap gap-1">
             {RESUME_DATA.technologies.map((technologies) => {
               return <Badge key={technologies}>{technologies}</Badge>;
             })}
           </div>
-        <h2 className="print-force-new-page scroll-mb-16"></h2>
+          <Divider className="my-4" />
           <h2 className="text-lg font-bold">Projects 🎓</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">
             {RESUME_DATA.projects.map((project) => {

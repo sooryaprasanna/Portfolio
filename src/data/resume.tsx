@@ -12,18 +12,18 @@ export const RESUME_DATA = {
   about:
     "Highly skilled software developer with 10+ years of experience in designing, developing, leading and maintaining data-intensive distributed systems and enterprise applications.",
   avatarUrl: "https://avatars.githubusercontent.com/u/16794616",
-  personalWebsiteUrl: "https://sooryaprasanna.com",
+  personalWebsiteUrl: "https://www.sooryaprasanna.com/",
   contact: {
-    email: "https://www.sooryaprasanna.com/p/contact.html",
+    email: "https://iamsoorya.blogspot.com/p/connect.html",
     social: [
       {
         name: "Resume",
-        url: "https://www.dropbox.com/s/wrzshwgysdxiahn/Resume.pdf",
+        url: "https://www.dropbox.com/scl/fi/hutr3jp2s7l0ljiqcmm5l/Resume.pdf",
         icon: ResumeIcon,
       },
       {
         name: "Portfolio",
-        url: "https://www.sooryaprasanna.com/",
+        url: "https://iamsoorya.blogspot.com/",
         icon: Globe,
       },
       {
@@ -48,7 +48,7 @@ export const RESUME_DATA = {
       description:
         "Data Lake → Lead for firm enterprise Data Lake platform - ingest, sandbox, simulator services. Overseeing 160K unique datasets ingesting 180K pipelines per day for reporting & analytics use cases.",
       description2:
-        "Lakehouse → Designing and building the components for next generation of data platform built on cloud-native Lakehouse architecture. Leading the migration effort from Lake to Lakehouse to cut down capital cost by identifying refiners to migrate to cloud, building pipelines for ingestions and demise unused data to cold storage.",
+        "Lakehouse → Designing and building the components for next generation of data platform built on cloud-native Lakehouse architecture. Leading the migration effort from Lake to Lakehouse to cut down capital cost by identifying refiners to migrate to cloud. Building pipelines for ingestions, demising refiners and moving unused data to cold storage.",
     },
     {
       company: "",
@@ -124,50 +124,56 @@ export const RESUME_DATA = {
     "C++",
   ],
   technologies: [
+    "AWS",
+    "Flink",
     "HDFS",
-    "MapReduce",
-    "Apache Flink",
-    "Apache Spark",
-    "Apache Kafka",
-    "Apache Hive",
-    "Apache HBase",
+    "HBase",
+    "Iceberg",
+    "Kafka",
+    "Snowflake",
     "Apache Avro",
     "Apache Parquet",
-    "Apache Zookeeper",
-    "Apache Iceberg",
-    "AWS",
-    "Snowflake",
+    "MapReduce",
+    "Spark",
+    "Hive",
+    "REST",
+    "JUnit",
+    "CI/CD",
+    "Git",
+    "Maven",
+    "Gradle",
+    "NoSQL",
     "Mongo DB",
     "Bash Shell Script",
     "Pandas",
-    "CI/CD",
-    "REST",
-    "Git",
-    "Github",
-    "Gitlab",
-    "Maven",
-    "Gradle",
-    "MySQL",
-    "NoSQL",
-    "JUnit",
     "SAP Sybase IQ",
-  ].sort(),
-  projects: [
+  ],
+  mentorship: [
     {
-      title: "Portfolio",
-      techStack: [
-        "Side Project",
-        "Next.js",
-        "React",
-      ],
-      description: "Personal webpage built using Next.js, deployed on Vercel.",
-      link: {
-        label: "sooryaprasanna.com",
-        href: "https://www.sooryaprasanna.com/",
-      },
+      title: "GS Campus Recruiting Coordinator · North Americas",
+      start: "2019",
+      end: "Present",
+      description:
+        "Leading and mentoring the recruiting team to identify talents for Goldman Sachs Engineering Division across the United States & Canada.",
     },
     {
-      title: "Yelp Dataset Challenge",
+      title: "UT Dallas Scouting Team",
+      start: "2020",
+      end: "Present",
+      description:
+        "Organized various events at The University of Texas at Dallas representing Goldman Sachs.",
+    },
+    {
+      title: "Coach for Goldman Sachs BAI/HLAI",
+      start: "2021",
+      end: "Present",
+      description:
+        "Served as mentor & coach to interns, analysts, and associates as part of Black Analyst Initiative/Hispanic, Latinx Analyst Initiative to encourage diversity across the firm.",
+    },
+  ],
+  projects: [
+    {
+      title: "Yelp Challenge",
       techStack: [
         "Java",
         "Scala",
@@ -177,11 +183,11 @@ export const RESUME_DATA = {
       description: "Prediction of Yelp Review Star Rating → Sentiment Analysis & Recommendation Model.",
       link: {
         label: "",
-        href: "",
+        href: "https://github.com/sooryaprasanna/Yelp-Dataset-Challenge",
       },
     },
     {
-        title: "Online Tech Store",
+        title: "Shopping Website",
         techStack: [
           "Javascript",
           "PHP",
@@ -191,8 +197,20 @@ export const RESUME_DATA = {
         description: "Developed scalable web application to market wide range of tech products.",
         link: {
           label: "",
-          href: "",
+          href: "https://github.com/sooryaprasanna/Shopping-Website",
         },
+    },
+    {
+      title: "Kaggle Challenge",
+      techStack: [
+        "R Programming",
+        "Machine Learning",
+      ],
+      description: "Implemented Naive Bayes, SVM and KNN classifiers across complex multivariate dataset with 75% accuracy.",
+      link: {
+        label: "",
+        href: "https://github.com/sooryaprasanna/Machine-Learning-Classifiers",
+      },
     },
     {
       title: "Tweets Clustering",
@@ -203,7 +221,19 @@ export const RESUME_DATA = {
       description: "Implemented supervised classification techniques on Twitter dataset using clustering algorithms.",
       link: {
         label: "",
-        href: "",
+        href: "https://github.com/sooryaprasanna/Tweets-Clustering",
+      },
+    },
+    {
+      title: "Car Rental System",
+      techStack: [
+        "PLSQL",
+        "Design",
+      ],
+      description: "Designed a complete database for a car rental system with all the features. Database was designed using PLSQL",
+      link: {
+        label: "",
+        href: "https://github.com/sooryaprasanna/Car-Rental-System",
       },
     },
     {
@@ -215,55 +245,7 @@ export const RESUME_DATA = {
       description: "Coded the famous casino game 'Craps' to implement machine learning strategies to automate wager and to maximize profit.",
       link: {
         label: "",
-        href: "",
-      },
-    },
-    {
-      title: "Pima Dataset Analysis",
-      techStack: [
-        "R Programming",
-        "Machine Learning",
-      ],
-      description: "Implemented Naive Bayes, SVM and KNN classifiers across complex multivariate dataset with 768 instances and 8 attributes with 75% accuracy.",
-      link: {
-        label: "",
-        href: "",
-      },
-    },
-    {
-      title: "Car Rental System",
-      techStack: [
-        "PLSQL",
-        "Design",
-      ],
-      description: "Designed a database for rental system using PLSQL stored procedures to update reservations, check insurance information and validate offer codes.",
-      link: {
-        label: "",
-        href: "",
-      },
-    },
-    {
-      title: "Euler Tour",
-      techStack: [
-        "Java",
-        "Algorithms",
-      ],
-      description: "Implemented Hierholzer's algorithm to find an Euler tour for any given graph.",
-      link: {
-        label: "",
-        href: "",
-      },
-    },
-    {
-      title: "Skip List",
-      techStack: [
-        "Java",
-        "Algorithms",
-      ],
-      description: "Implemented the Skip List data structure and compare its performance with Tree Map data structure.",
-      link: {
-        label: "",
-        href: "",
+        href: "https://github.com/sooryaprasanna/Game-of-Craps",
       },
     },
     {
@@ -275,7 +257,7 @@ export const RESUME_DATA = {
       description: "Implemented the critical path method (CPM) algorithm in PERT charts to schedule a set of project activities.",
       link: {
         label: "",
-        href: "",
+        href: "https://github.com/sooryaprasanna/Critical-Paths",
       },
     },
     {
@@ -287,7 +269,31 @@ export const RESUME_DATA = {
       description: "Implemented Indexed Priority Queues, Prim’s Minimum Spanning Tree Algorithm, Dijkstra’s Shortest Path Algorithm along with performance comparison.",
       link: {
         label: "",
-        href: "",
+        href: "https://github.com/sooryaprasanna/Indexed-Heap",
+      },
+    },
+    {
+      title: "Skip List",
+      techStack: [
+        "Java",
+        "Algorithms",
+      ],
+      description: "Implemented the Skip List data structure and compare its performance with Tree Map data structure.",
+      link: {
+        label: "",
+        href: "https://github.com/sooryaprasanna/Skip-List",
+      },
+    },
+    {
+      title: "Euler Tour",
+      techStack: [
+        "Java",
+        "Algorithms",
+      ],
+      description: "Implemented Hierholzer's algorithm to find an Euler tour for any given graph.",
+      link: {
+        label: "",
+        href: "https://github.com/sooryaprasanna/Euler-Tour",
       },
     },
     {
@@ -299,7 +305,19 @@ export const RESUME_DATA = {
       description: "Developed an application that is capable of processing repository of videos, convert them to searchable hashtags using Optical Character Recognition (OCR).",
       link: {
         label: "",
-        href: "",
+        href: "https://github.com/sooryaprasanna/Taggr",
+      },
+    },
+    {
+      title: "Portfolio",
+      techStack: [
+        "Next.js",
+        "React",
+      ],
+      description: "Personal webpage built using Next.js, deployed on Vercel.",
+      link: {
+        label: "",
+        href: "https://www.sooryaprasanna.com/",
       },
     },
   ],
