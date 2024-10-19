@@ -33,7 +33,7 @@ export const RESUME_DATA = {
       },
       {
         name: "Resume",
-        url: "https://drive.google.com/file/d/13bz8deeEcQ6Mog-6oSPAT1B4fpBis409/view",
+        url: "https://drive.google.com/file/d/12Er2HjZSvr9IYpwIkOKrIqq0-EXg-YzE/view",
         icon: ResumeIcon,
       },
       {
