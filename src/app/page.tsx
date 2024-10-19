@@ -116,22 +116,22 @@ export default function Page() {
             );
           })}
           <Divider className="my-4" />
-          <h2 className="text-lg font-bold">Mentorship 👏🏽</h2>
-          {RESUME_DATA.mentorship.map((mentorship) => {
+          <h2 className="text-lg font-bold">Volunteering 👏🏽</h2>
+          {RESUME_DATA.volunteering.map((volunteering) => {
             return (
-              <Card key={mentorship.title}>
+              <Card key={volunteering.title}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base leading-none">
-                    {mentorship.title}
+                      {volunteering.title}
                     </h3>
                     <h4 className="text-xs leading-none text-gray-500">
-                    {mentorship.start} - {mentorship.end}
+                    {volunteering.start} - {volunteering.end}
                   </h4>
                   </div>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs">
-                  {mentorship.description}
+                  {volunteering.description}
                 </CardContent>
               </Card>
             );

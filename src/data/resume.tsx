@@ -1,6 +1,7 @@
 import { ResumeIcon } from "@/components/icons/ResumeIcon";
 import { LinkedInIcon } from "@/components/icons/LinkedInIcon";
 import { Github, Globe, MailIcon } from "lucide-react";
+import { link } from "fs";
 
 export const RESUME_DATA = {
   name: "Soorya Prasanna Ravichandran",
@@ -152,27 +153,34 @@ export const RESUME_DATA = {
     "Pandas",
     "SAP Sybase IQ",
   ],
-  mentorship: [
+  volunteering: [
+    {
+      title: "Mentor → Goldman Sachs Emerging Leaders Series (ELS)",
+      start: "2024",
+      end: "Present",
+      description:
+        "Mentoring sophomore undergraduate students to cultivate essential industry skills that will help them become better engineers and explore opportunities at Goldman Sachs.",
+    },
+    {
+      title: "Mentor → Goldman Sachs BAI/HLAI Network",
+      start: "2021",
+      end: "Present",
+      description:
+        "Mentoring interns, analysts, and associates as part of Black Analyst Initiative/Hispanic, Latinx Analyst Initiative to encourage diversity across the firm.",
+    },
     {
       title: "GS Campus Recruiting Coordinator · North Americas",
       start: "2019",
       end: "Present",
       description:
-        "Leading and mentoring the recruiting team to identify talents for Goldman Sachs Engineering Division across the United States & Canada.",
+        "Leading and mentoring the recruiting team to identify and hire talents for Goldman Sachs Engineering Division across the United States & Canada.",
     },
     {
       title: "UT Dallas Scouting Team",
       start: "2020",
       end: "Present",
       description:
-        "Organized various events at The University of Texas at Dallas representing Goldman Sachs.",
-    },
-    {
-      title: "Coach for Goldman Sachs BAI/HLAI",
-      start: "2021",
-      end: "Present",
-      description:
-        "Served as mentor & coach to interns, analysts, and associates as part of Black Analyst Initiative/Hispanic, Latinx Analyst Initiative to encourage diversity across the firm.",
+        "Organized Hackathons and various engineering events at The University of Texas at Dallas representing Goldman Sachs.",
     },
   ],
   projects: [
