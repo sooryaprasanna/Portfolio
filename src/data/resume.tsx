@@ -63,7 +63,7 @@ export const RESUME_DATA = {
       description6:
         "Designed workflows to identify and decommission legacy refiners, datastores and migrated unused data to AWS S3 Glacier, resulting in ~$500k in quarterly storage costs savings",
       description7:
-        "Collaborated with Snowflake Engineers to develop the Snowpark Migration Accelerator tool, facilitating the categorization of refiners for auto-migration to the Lakehouse and streamlining the migration process.",
+        "Collaborated with Snowflake Engineers to develop the Snowpark Migration Accelerator tool, facilitating the categorization of refiners for auto-migration to the Lakehouse and streamlined the migration process.",
       description8:
         "Managed and mentored junior and mid-level developers, providing regular coaching through 1:1 sessions and career development planning."
     },
@@ -89,7 +89,7 @@ export const RESUME_DATA = {
       description:
         "Contributed to the core backend metadata services for data cataloging, ingest and refinement for early stage enterprise Data Lake platform.",
       description2:
-        "Migrated ingest framework from legacy MapReduce to Apache Flink resulting in an average data availability latency reduction of 25% and memory reduction of 33%.",
+        "Migrated ingest framework from legacy MapReduce to Apache Flink, reducing data availability latency by 25% and optimizing memory usage by 33%.",
     },
   ],
   work3:[
@@ -176,14 +176,14 @@ export const RESUME_DATA = {
       start: "2021",
       end: "2025",
       description:
-        "Mentoring interns, analysts, and associates through the Black Analyst Initiative and Hispanic/Latinx Analyst Initiative to promote diversity within Goldman Sachs.",
+        "Mentored interns, junior and mid-level engineers through the Black Analyst Initiative and Hispanic/Latinx Analyst Initiative to promote diversity within Goldman Sachs.",
     },
     {
       title: "GS Campus Recruiting Coordinator · North Americas",
       start: "2019",
       end: "2025",
       description:
-        "Leading and mentoring the recruiting team to identify and hire talents for Goldman Sachs Engineering Division across the United States & Canada.",
+        "Led the recruiting team to identify, source, and hired 100+ engineering talents across the U.S. and Canada, ensuring alignment with business needs for the Goldman Sachs Engineering Division.",
     },
     {
       title: "UT Dallas Scouting Team",
