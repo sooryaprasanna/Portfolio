@@ -69,8 +69,8 @@ export default function Page() {
             return (
               <Card key={work.company}>
                 <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base leading-none">
+                  <div className="flex items-center justify-center gap-x-2 text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base leading-relaxed">
                       <a className="hover:underline" href={work.link}                 
                       target="_blank"
                       rel="noopener noreferrer">
@@ -119,7 +119,7 @@ export default function Page() {
               <Card key={work2.company}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
-                  <h4 className="text-sm leading-none ">
+                  <h4 className="text-sm leading-none">
                     {work2.title}
                   </h4>
                   <h4 className="text-xs leading-none text-gray-500">
@@ -140,8 +140,8 @@ export default function Page() {
             return (
               <Card key={work3.company}>
                 <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base leading-none">
+                  <div className="flex items-center justify-center gap-x-2 text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base leading-relaxed">
                       <a className="hover:underline" href={work3.link}                 
                       target="_blank"
                       rel="noopener noreferrer">
@@ -193,10 +193,10 @@ export default function Page() {
               <Card key={volunteering.title}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base leading-none">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base">
                       {volunteering.title}
                     </h3>
-                    <h4 className="text-xs leading-none text-gray-500">
+                    <h4 className="text-xs text-gray-500">
                     {volunteering.start} - {volunteering.end}
                   </h4>
                   </div>

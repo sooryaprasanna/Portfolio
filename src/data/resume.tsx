@@ -33,7 +33,7 @@ export const RESUME_DATA = {
       },
       {
         name: "Resume",
-        url: "https://drive.google.com/file/d/12Er2HjZSvr9IYpwIkOKrIqq0-EXg-YzE/view",
+        url: "https://drive.google.com/file/d/15C0-CT7DX3a1CGicJLpfQKUPu7-nuzLN/view",
         icon: ResumeIcon,
       },
       {
@@ -48,7 +48,7 @@ export const RESUME_DATA = {
       company: "Goldman Sachs",
       link: "https://www.goldmansachs.com/careers/our-firm/engineering/",
       title: "Vice President → Core Data Engineering",
-      start: "2021",
+      start: "Jan 2021",
       end: "Present",
       description:
         "Data Lake → Lead for the firm’s enterprise Data Lake platform, overseeing core services (ingest, sandbox, and simulator) to support reporting and analytics across ~160K unique datasets ingesting ~180K daily data pipelines.",
@@ -73,8 +73,8 @@ export const RESUME_DATA = {
       company: "",
       link: "",
       title: "Associate Software Engineer",
-      start: "2020",
-      end: "2021",
+      start: "Jan 2020",
+      end: "Dec 2020",
       description:
         "Architected and developed key components of Data Lake, including AWS S3 Ingest service, Data Partitioner, Snowflake Ingest service, Avro-Parquet Scanner & Converter utility, ensuring high reliability and on-time delivery.",
       description2:
@@ -84,8 +84,8 @@ export const RESUME_DATA = {
       company: "",
       link: "",
       title: "Analyst Software Engineer",
-      start: "2017",
-      end: "2020",
+      start: "Nov 2017",
+      end: "Dec 2019",
       description:
         "Contributed to the core backend metadata services for data cataloging, ingest and refinement for early stage enterprise Data Lake platform.",
       description2:
@@ -94,15 +94,26 @@ export const RESUME_DATA = {
   ],
   work3:[
     {
-      company: "Infosys Limited, India",
+      company: "The University of Texas at Dallas",
+      link: "https://cs.utdallas.edu/community/organizations/",
+      title: "Curriculum Developer",
+      start: "Jun 2017",
+      end: "Oct 2017",
+      description:
+        "Led the Big Data Club as primary instructor, guiding students through hands-on projects with Big data tools and technologies to enhance practical coding skills and understanding.",
+      description2:
+        "Developed and optimized course content, exercises, and learning pathways in collaboration with the Center for CS Education & Outreach to improve student engagement and mastery of big data concepts.",
+    },
+    {
+      company: "Infosys, India",
       link: "https://www.accc.gov.au/system/files/Telstra%20Revised%20Cost%20Allocation%20Framework%20%28Public%20Version%29.pdf",
       title: "Software Engineer",
-      start: "2013",
-      end: "2015",
+      start: "Sep 2013",
+      end: "Jul 2015",
       description:
-        "Developed, optimized and delivered processed extracts on a Data Warehouse ETL platform → Network Decision Support Database for Telstra Corporation, Australia.",
-      description2:
         "Achieved 100% predictability by building an Emergency Alert Solution to warn communities under fire and flood danger in Australia.",
+      description2:
+        "Developed, optimized and delivered processed extracts on a Data Warehouse ETL platform → Network Decision Support Database for Telstra Corporation, Australia.",
     },
     {
       company: "",
