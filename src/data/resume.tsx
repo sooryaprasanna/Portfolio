@@ -33,7 +33,7 @@ export const RESUME_DATA = {
       },
       {
         name: "Resume",
-        url: "https://drive.google.com/file/d/15C0-CT7DX3a1CGicJLpfQKUPu7-nuzLN/view",
+        url: "https://drive.google.com/file/d/1ZBBLtFjS97OZLmy5QVrkrVESV99g83gI/view",
         icon: ResumeIcon,
       },
       {
@@ -61,9 +61,9 @@ export const RESUME_DATA = {
       description5:
         "Engineered parallel ingest components, enabling dual ingest pipelines for seamless migration, enhancing scalability, and creating a failover environment for greater reliability.",
       description6:
-        "Designed workflows to identify and decommission legacy refiners, datastores and migrated unused data to AWS S3 Glacier, resulting in ~$500k in quarterly storage costs savings",
+        "Designed and implemented workflows to decommission 25% of Lake refiners & datastores, migrating unused data to cold storage and cutting quarterly storage costs by ~$500K.",
       description7:
-        "Collaborated with Snowflake Engineers to develop the Snowpark Migration Accelerator tool, facilitating the categorization of refiners for auto-migration to the Lakehouse and streamlined the migration process.",
+        "Collaborated with Snowflake Engineers to develop the Snowpark Migration Accelerator, streamlining refiner categorization and auto-migration to Lakehouse.",
       description8:
         "Managed and mentored junior and mid-level developers, providing regular coaching through 1:1 sessions and career development planning."
     },
