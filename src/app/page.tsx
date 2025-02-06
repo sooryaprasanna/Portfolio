@@ -79,10 +79,10 @@ export default function Page() {
                     </h3>
                   </div>
                   <div className="flex items-center justify-between gap-x-2 text-base">
-                  <h4 className="text-sm leading-none ">
+                  <h4 className="text-sm leading-relaxed ">
                     {work.title}
                   </h4>
-                  <h4 className="text-xs leading-none text-gray-500">
+                  <h4 className="text-xs leading-relaxed text-gray-500">
                     {work.start} - {work.end}
                   </h4>
                   </div>
@@ -119,10 +119,10 @@ export default function Page() {
               <Card key={work2.company}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
-                  <h4 className="text-sm leading-none">
+                  <h4 className="text-sm leading-relaxed">
                     {work2.title}
                   </h4>
-                  <h4 className="text-xs leading-none text-gray-500">
+                  <h4 className="text-xs leading-relaxed text-gray-500">
                     {work2.start} - {work2.end}
                   </h4>
                   </div>
@@ -150,10 +150,10 @@ export default function Page() {
                     </h3>
                   </div>
                   <div className="flex items-center justify-between gap-x-2 text-base">
-                  <h4 className="text-sm leading-none ">
+                  <h4 className="text-sm leading-relaxed ">
                     {work3.title}
                   </h4>
-                  <h4 className="text-xs leading-none text-gray-500">
+                  <h4 className="text-xs leading-relaxed text-gray-500">
                     {work3.start} - {work3.end}
                   </h4>
                   </div>
@@ -174,7 +174,7 @@ export default function Page() {
               <Card key={education.school}>
                 <CardHeader>
                   <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="font-semibold leading-none">
+                    <h3 className="font-semibold leading-relaxed">
                       {education.school}
                     </h3>
                     <div className="text-xs text-gray-500">
@@ -203,6 +203,25 @@ export default function Page() {
                 </CardHeader>
                 <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
                   {volunteering.description}
+                </CardContent>
+              </Card>
+            );
+          })}
+          {RESUME_DATA.volunteering2.map((volunteering2) => {
+            return (
+              <Card key={volunteering2.title}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base">
+                      {volunteering2.title}
+                    </h3>
+                    <h4 className="text-xs text-gray-500">
+                    {volunteering2.start}
+                  </h4>
+                  </div>
+                </CardHeader>
+                <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
+                  {volunteering2.description}
                 </CardContent>
               </Card>
             );

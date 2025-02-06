@@ -211,6 +211,14 @@ export const RESUME_DATA = {
         "Developed competency among 500+ students and 300+ industry professionals by conducting hands-on workshops and seminars on Big Data technologies.",
     },
   ],
+  volunteering2: [
+    {
+      title: "CS Outreach Coordinator",
+      start: "Summer 2016",
+      description:
+        "Designed and facilitated programming workshops for middle and high school students to foster early interest in STEM, while encouraging informed career choices through exposure to computer programming concepts; provided guidance to college students, enhancing their programming skills, supporting coursework and projects, and helping them secure internships to improve job prospects and industry readiness.",
+    },
+  ],
   projects: [
     {
       title: "Yelp Challenge",
