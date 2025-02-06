@@ -64,7 +64,7 @@ export default function Page() {
             {RESUME_DATA.about}
           </p>
           <Divider className="my-4" />
-          <h2 className="text-lg font-bold">Work Experience 👨🏻‍💻</h2>
+          <h2 className="text-lg font-bold">Experience 👨🏻‍💻</h2>
           {RESUME_DATA.work.map((work) => {
             return (
               <Card key={work.company}>
@@ -87,11 +87,82 @@ export default function Page() {
                   </h4>
                   </div>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs">
-                  {work.description}
+                <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
+                <li> {work.description} </li>
                 </CardContent>
-                <CardContent className="mt-2 text-xs">
-                  {work.description2}
+                <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
+                <div style={{ marginLeft: '20px' }}><li> {work.description2} </li></div>
+                </CardContent>
+                <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
+                <div style={{ marginLeft: '20px' }}><li> {work.description3} </li></div>
+                </CardContent>
+                <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
+                <li> {work.description4} </li>
+                </CardContent>
+                <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
+                <div style={{ marginLeft: '20px' }}><li> {work.description5} </li></div>
+                </CardContent>
+                <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
+                <div style={{ marginLeft: '20px' }}><li> {work.description6} </li></div>
+                </CardContent>
+                <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
+                <div style={{ marginLeft: '20px' }}><li> {work.description7} </li></div>
+                </CardContent>
+                <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
+                <li> {work.description8} </li>
+                </CardContent>
+              </Card>
+            );
+          })}
+          {RESUME_DATA.work2.map((work2) => {
+            return (
+              <Card key={work2.company}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                  <h4 className="text-sm leading-none ">
+                    {work2.title}
+                  </h4>
+                  <h4 className="text-xs leading-none text-gray-500">
+                    {work2.start} - {work2.end}
+                  </h4>
+                  </div>
+                </CardHeader>
+                <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
+                <li> {work2.description} </li>
+                </CardContent>
+                <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
+                <li> {work2.description2} </li>
+                </CardContent>
+              </Card>
+            );
+          })}
+          {RESUME_DATA.work3.map((work3) => {
+            return (
+              <Card key={work3.company}>
+                <CardHeader>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base leading-none">
+                      <a className="hover:underline" href={work3.link}                 
+                      target="_blank"
+                      rel="noopener noreferrer">
+                        {work3.company}
+                      </a>
+                    </h3>
+                  </div>
+                  <div className="flex items-center justify-between gap-x-2 text-base">
+                  <h4 className="text-sm leading-none ">
+                    {work3.title}
+                  </h4>
+                  <h4 className="text-xs leading-none text-gray-500">
+                    {work3.start} - {work3.end}
+                  </h4>
+                  </div>
+                </CardHeader>
+                <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
+                <li> {work3.description} </li>
+                </CardContent>
+                <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
+                <li> {work3.description2} </li>
                 </CardContent>
               </Card>
             );
@@ -130,7 +201,7 @@ export default function Page() {
                   </h4>
                   </div>
                 </CardHeader>
-                <CardContent className="mt-2 text-xs">
+                <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
                   {volunteering.description}
                 </CardContent>
               </Card>

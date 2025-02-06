@@ -11,7 +11,7 @@ export const RESUME_DATA = {
   title:
     "Software Engineer",
   about:
-    "Highly skilled software developer with 10+ years of experience in designing, developing, leading and maintaining data-intensive distributed systems and enterprise applications.",
+    "Highly skilled software developer with 10 years of experience in designing, developing, leading and maintaining data-intensive distributed systems and enterprise applications.",
   avatarUrl: "https://avatars.githubusercontent.com/u/16794616",
   personalWebsiteUrl: "https://www.sooryaprasanna.com/",
   contact: {
@@ -45,16 +45,30 @@ export const RESUME_DATA = {
   },
   work: [
     {
-      company: "Goldman Sachs · Core Data Engineering",
+      company: "Goldman Sachs",
       link: "https://www.goldmansachs.com/careers/our-firm/engineering/",
-      title: "Vice President → Lead Software Engineer",
+      title: "Vice President → Core Data Engineering",
       start: "2021",
       end: "Present",
       description:
-        "Data Lake → Lead for firm enterprise Data Lake platform - ingest, sandbox, simulator services. Overseeing 160K unique datasets ingesting 180K pipelines per day for reporting & analytics use cases.",
+        "Data Lake → Lead for the firm’s enterprise Data Lake platform, overseeing core services (ingest, sandbox, and simulator) to support reporting and analytics across ~160K unique datasets ingesting ~180K daily data pipelines.",
       description2:
-        "Lakehouse → Designing and building the components for next generation of data platform built on cloud-native Lakehouse architecture. Leading the migration effort from Lake to Lakehouse to cut down capital cost by identifying refiners to migrate to cloud. Building pipelines for ingestions, demising refiners and moving unused data to cold storage.",
+        "Spearheaded the data & operational catalog, and built the ingest application using HBase, Flink, HDFS, and Hadoop YARN.",
+      description3:
+        "Streamlined SDLC and reduced time to production by 75% through the adoption of blue/green deployment strategy.",
+      description4:
+        "Lakehouse → Lead Architect for Lake to Lakehouse migration, designing and implementing ingest migration architecture to enhance performance and reduce costs.",
+      description5:
+        "Engineered parallel ingest components, enabling dual ingest pipelines for seamless migration, enhancing scalability, and creating a failover environment for greater reliability.",
+      description6:
+        "Designed workflows to identify and decommission legacy refiners, datastores and migrated unused data to AWS S3 Glacier, resulting in ~$500k in quarterly storage costs savings",
+      description7:
+        "Collaborated with Snowflake Engineers to develop the Snowpark Migration Accelerator tool, facilitating the categorization of refiners for auto-migration to the Lakehouse and streamlining the migration process.",
+      description8:
+        "Managed and mentored junior and mid-level developers, providing regular coaching through 1:1 sessions and career development planning."
     },
+    ],
+    work2: [
     {
       company: "",
       link: "",
@@ -62,8 +76,9 @@ export const RESUME_DATA = {
       start: "2020",
       end: "2021",
       description:
-        "Designed and Developed various components of Data Lake → AWS S3 Ingestions, Data Partitioner, Snowflake Ingestions, Simulator environment for performance tuning and error reduction.",
-      description2: "",
+        "Architected and developed key components of Data Lake, including AWS S3 Ingest service, Data Partitioner, Snowflake Ingest service, Avro-Parquet Scanner & Converter utility, ensuring high reliability and on-time delivery.",
+      description2:
+        "Built a Simulator tool that enabled early bug detection, fostered developer mindfulness, and improved performance tuning, resulting in an 80% increase in customer satisfaction.",
     },
     {
       company: "",
@@ -72,28 +87,22 @@ export const RESUME_DATA = {
       start: "2017",
       end: "2020",
       description:
-        "Contributed to the core backend metadata services for data cataloging, governance, and refinement for early stage enterprise Data Lake platform. Migrated ingest framework from MapReduce to Apache Flink.",
-      description2: "",
+        "Contributed to the core backend metadata services for data cataloging, ingest and refinement for early stage enterprise Data Lake platform.",
+      description2:
+        "Migrated ingest framework from legacy MapReduce to Apache Flink resulting in an average data availability latency reduction of 25% and memory reduction of 33%.",
     },
+  ],
+  work3:[
     {
-      company: "The University of Texas at Dallas",
-      link: "https://cs.utdallas.edu/community/organizations/",
-      title: "Big Data Instructor",
-      start: "2016",
-      end: "2017",
-      description:
-        "Developed competency among 500+ students and 300+ industry professionals by conducting hands-on workshops and seminars on Big Data technologies.",
-      description2: "",
-    },
-    {
-      company: "Infosys Limited",
+      company: "Infosys Limited, India",
       link: "https://www.accc.gov.au/system/files/Telstra%20Revised%20Cost%20Allocation%20Framework%20%28Public%20Version%29.pdf",
       title: "Software Engineer",
       start: "2013",
       end: "2015",
       description:
         "Developed, optimized and delivered processed extracts on a Data Warehouse ETL platform → Network Decision Support Database for Telstra Corporation, Australia.",
-      description2: "",
+      description2:
+        "Achieved 100% predictability by building an Emergency Alert Solution to warn communities under fire and flood danger in Australia.",
     },
     {
       company: "",
@@ -102,19 +111,20 @@ export const RESUME_DATA = {
       start: "Feb 2013",
       end: "May 2013",
       description:
-        "Developed Online Shopping Cart that markets seasonal clothes to customers based on their geolocation. Rapidly prototyped new capabilities to ensure feasibility of the project.",
-      description2: "",
+        "Developed Online Shopping Cart that markets seasonal clothes to customers based on their geolocation.",
+      description2:
+        "Rapidly prototyped new capabilities to ensure feasibility of the project.",
     },
   ],
   education: [
     {
-      school: "University of Texas at Dallas",
+      school: "The University of Texas at Dallas",
       degree: "Master of Science in Computer Science · Data Science Major",
       start: "2015",
       end: "2017",
     },
     {
-      school: "Anna University",
+      school: "Anna University, India",
       degree: "Bachelor of Engineering in Computer Science",
       start: "2009",
       end: "2013",
@@ -157,30 +167,37 @@ export const RESUME_DATA = {
     {
       title: "Mentor → Goldman Sachs Emerging Leaders Series (ELS)",
       start: "2024",
-      end: "Present",
+      end: "2025",
       description:
-        "Mentoring sophomore undergraduate students to cultivate essential industry skills that will help them become better engineers and explore opportunities at Goldman Sachs.",
+        "Mentored sophomore students to cultivate essential industry skills that will help them become better engineers and explore opportunities at Goldman Sachs.",
     },
     {
       title: "Mentor → Goldman Sachs BAI/HLAI Network",
       start: "2021",
-      end: "Present",
+      end: "2025",
       description:
-        "Mentoring interns, analysts, and associates as part of Black Analyst Initiative/Hispanic, Latinx Analyst Initiative to encourage diversity across the firm.",
+        "Mentoring interns, analysts, and associates through the Black Analyst Initiative and Hispanic/Latinx Analyst Initiative to promote diversity within Goldman Sachs.",
     },
     {
       title: "GS Campus Recruiting Coordinator · North Americas",
       start: "2019",
-      end: "Present",
+      end: "2025",
       description:
         "Leading and mentoring the recruiting team to identify and hire talents for Goldman Sachs Engineering Division across the United States & Canada.",
     },
     {
       title: "UT Dallas Scouting Team",
       start: "2020",
-      end: "Present",
+      end: "2025",
       description:
-        "Organized Hackathons and various engineering events at The University of Texas at Dallas representing Goldman Sachs.",
+        "Organized Hackathons and various engineering events at The University of Texas at Dallas leading Goldman Sachs Engineers.",
+    },
+    {
+      title: "Big Data Instructor · UT Dallas",
+      start: "2016",
+      end: "2017",
+      description:
+        "Developed competency among 500+ students and 300+ industry professionals by conducting hands-on workshops and seminars on Big Data technologies.",
     },
   ],
   projects: [
@@ -199,18 +216,18 @@ export const RESUME_DATA = {
       },
     },
     {
-        title: "Shopping Website",
-        techStack: [
-          "Javascript",
-          "PHP",
-          "CSS",
-          "MySQL",
-        ],
-        description: "Developed scalable web application to market wide range of tech products.",
-        link: {
-          label: "",
-          href: "https://github.com/sooryaprasanna/Shopping-Website",
-        },
+      title: "Shopping Website",
+      techStack: [
+        "Javascript",
+        "PHP",
+        "CSS",
+        "MySQL",
+      ],
+      description: "Developed scalable web application to market wide range of tech products.",
+      link: {
+        label: "",
+        href: "https://github.com/sooryaprasanna/Shopping-Website",
+      },
     },
     {
       title: "Kaggle Challenge",
