@@ -19,11 +19,6 @@ export const RESUME_DATA = {
     tel: "",
     social: [
       {
-        name: "Resume",
-        url: "https://drive.google.com/file/d/1ZBBLtFjS97OZLmy5QVrkrVESV99g83gI/view",
-        icon: ResumeIcon,
-      },
-      {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/sooryaprasanna/",
         icon: LinkedInIcon,
@@ -32,6 +27,11 @@ export const RESUME_DATA = {
         name: "GitHub",
         url: "https://github.com/sooryaprasanna",
         icon: Github,
+      },
+      {
+        name: "Resume",
+        url: "https://drive.google.com/file/d/1mZ3DEXcwKCfo20nPYC3KJAWVoJuorl5h/view",
+        icon: ResumeIcon,
       },
       {
         name: "Portfolio",
