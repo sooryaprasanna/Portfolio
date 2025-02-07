@@ -3,7 +3,7 @@ import { Card, CardHeader, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Metadata } from "next";
 import { Section } from "@/components/ui/section";
-import { GlobeIcon, MailIcon, MapPinIcon } from "lucide-react";
+import { GlobeIcon, MailIcon, MapPinIcon, PhoneIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { RESUME_DATA } from "@/data/resume";
 import { ProjectCard } from "@/components/project-card";
@@ -37,6 +37,30 @@ export default function Page() {
               </a>
             </p>
             <div className="flex gap-x-1 pt-1 text-sm text-muted-foreground print:hidden">
+              {RESUME_DATA.contact.email ? (
+                <Button
+                  className="h-8 w-8"
+                  variant="outline"
+                  size="icon"
+                  asChild
+                >
+                  <a href={`mailto:${RESUME_DATA.contact.email}`}>
+                    <MailIcon className="h-4 w-4" />
+                  </a>
+                </Button>
+              ) : null}
+              {RESUME_DATA.contact.tel ? (
+                <Button
+                  className="h-8 w-8"
+                  variant="outline"
+                  size="icon"
+                  asChild
+                >
+                  <a href={`tel:${RESUME_DATA.contact.tel}`} target="_blank" rel="noopener noreferrer">
+                    <PhoneIcon className="h-4 w-4" />
+                  </a>
+                </Button>
+              ) : null}
               {RESUME_DATA.contact.social.map((social) => (
                 <Button
                   key={social.name}

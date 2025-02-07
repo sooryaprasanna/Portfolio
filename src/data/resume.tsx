@@ -15,11 +15,13 @@ export const RESUME_DATA = {
   avatarUrl: "https://avatars.githubusercontent.com/u/16794616",
   personalWebsiteUrl: "https://www.sooryaprasanna.com/",
   contact: {
+    email: "spr.jobs@outlook.com",
+    tel: "",
     social: [
       {
-        name: "Email",
-        url: "https://iamsoorya.blogspot.com/p/connect.html",
-        icon: MailIcon,
+        name: "Resume",
+        url: "https://drive.google.com/file/d/1ZBBLtFjS97OZLmy5QVrkrVESV99g83gI/view",
+        icon: ResumeIcon,
       },
       {
         name: "LinkedIn",
@@ -30,11 +32,6 @@ export const RESUME_DATA = {
         name: "GitHub",
         url: "https://github.com/sooryaprasanna",
         icon: Github,
-      },
-      {
-        name: "Resume",
-        url: "https://drive.google.com/file/d/1ZBBLtFjS97OZLmy5QVrkrVESV99g83gI/view",
-        icon: ResumeIcon,
       },
       {
         name: "Portfolio",
