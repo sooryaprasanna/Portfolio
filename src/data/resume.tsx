@@ -60,8 +60,8 @@ export const RESUME_DATA = {
     ],
     work2: [
     {
-      company: "",
-      link: "",
+      company: "Goldman Sachs",
+      link: "https://www.goldmansachs.com/careers/our-firm/engineering/",
       title: "Associate Software Engineer",
       start: "Jan 2020",
       end: "Dec 2020",
@@ -71,8 +71,8 @@ export const RESUME_DATA = {
         "Built a Simulator tool that enabled early bug detection, fostered developer mindfulness, and improved performance tuning, resulting in an 80% increase in customer satisfaction.",
     },
     {
-      company: "",
-      link: "",
+      company: "Goldman Sachs",
+      link: "https://www.goldmansachs.com/careers/our-firm/engineering/",
       title: "Analyst Software Engineer",
       start: "Nov 2017",
       end: "Dec 2019",
@@ -93,7 +93,7 @@ export const RESUME_DATA = {
         "Led the Big Data Club as the primary instructor, designing hands-on projects, course content, and learning pathways in collaboration with the Center for CS Education & Outreach to enhance student engagement, coding skills, and Big Data mastery.",
     },
     {
-      company: "Infosys, India",
+      company: "Infosys",
       link: "https://www.accc.gov.au/system/files/Telstra%20Revised%20Cost%20Allocation%20Framework%20%28Public%20Version%29.pdf",
       title: "Software Engineer",
       start: "Sep 2013",
@@ -102,8 +102,8 @@ export const RESUME_DATA = {
         "Developed a high-precision Emergency Alert Solution with 100% predictability, warning Australian communities of fire and flood hazards while delivering mission-critical ETL data to Telstra’s Network Decision Support Database.",
     },
     {
-      company: "",
-      link: "",
+      company: "Infosys",
+      link: "https://infy.officialbrand.store",
       title: "Software Engineer Intern",
       start: "Feb 2013",
       end: "May 2013",

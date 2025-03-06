@@ -83,19 +83,17 @@ export default function Page() {
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
         </div>
-          <div className="w-full">
             <h2 className="text-lg font-bold">About 🙋🏻‍♂️</h2>
               <p className="text-pretty text-sm text-muted-foreground text-justify">
                 {RESUME_DATA.about}
               </p>
-          </div>
           <Divider className="my-4" />
           <h2 className="text-lg font-bold">Experience 👨🏻‍💻</h2>
           {RESUME_DATA.work.map((work) => {
             return (
               <Card key={work.company}>
                 <CardHeader>
-                  <div className="flex items-center justify-center gap-x-2 text-base">
+                  <div className="flex items-center gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base leading-relaxed">
                       <a className="hover:underline" href={work.link}                 
                       target="_blank"
@@ -141,6 +139,15 @@ export default function Page() {
             return (
               <Card key={work2.company}>
                 <CardHeader>
+                <div className="flex items-center gap-x-2 text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base leading-relaxed">
+                      <a className="hover:underline" href={work2.link}                 
+                      target="_blank"
+                      rel="noopener noreferrer">
+                        {work2.company}
+                      </a>
+                    </h3>
+                  </div>
                   <div className="flex items-center justify-between gap-x-2 text-base">
                   <h4 className="text-sm leading-relaxed">
                     {work2.title}
@@ -163,7 +170,7 @@ export default function Page() {
             return (
               <Card key={work3.company}>
                 <CardHeader>
-                  <div className="flex items-center justify-center gap-x-2 text-base">
+                  <div className="flex items-center gap-x-2 text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base leading-relaxed">
                       <a className="hover:underline" href={work3.link}                 
                       target="_blank"
