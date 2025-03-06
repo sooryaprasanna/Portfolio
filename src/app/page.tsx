@@ -83,10 +83,12 @@ export default function Page() {
             <AvatarFallback>{RESUME_DATA.initials}</AvatarFallback>
           </Avatar>
         </div>
-          <h2 className="text-lg font-bold">About 🙋🏻‍♂️</h2>
-          <p className="text-pretty text-sm text-muted-foreground">
-            {RESUME_DATA.about}
-          </p>
+          <div className="w-full">
+            <h2 className="text-lg font-bold">About 🙋🏻‍♂️</h2>
+              <p className="text-pretty text-sm text-muted-foreground text-justify">
+                {RESUME_DATA.about}
+              </p>
+          </div>
           <Divider className="my-4" />
           <h2 className="text-lg font-bold">Experience 👨🏻‍💻</h2>
           {RESUME_DATA.work.map((work) => {
@@ -131,9 +133,6 @@ export default function Page() {
                 </CardContent>
                 <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
                 <div style={{ marginLeft: '20px' }}><li> {work.description7} </li></div>
-                </CardContent>
-                <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
-                <li> {work.description8} </li>
                 </CardContent>
               </Card>
             );
@@ -185,9 +184,6 @@ export default function Page() {
                 <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
                 <li> {work3.description} </li>
                 </CardContent>
-                <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
-                <li> {work3.description2} </li>
-                </CardContent>
               </Card>
             );
           })}
@@ -210,6 +206,20 @@ export default function Page() {
               </Card>
             );
           })}
+          <Divider className="my-4" />
+          <h2 className="text-lg font-bold">Programming 🥷🏻</h2>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.programming.map((programming) => {
+              return <Badge key={programming}>{programming}</Badge>;
+            })}
+          </div>
+          <Divider className="my-4" />
+          <h2 className="text-lg font-bold">Technologies 🛠️</h2>
+          <div className="flex flex-wrap gap-1">
+            {RESUME_DATA.technologies.map((technologies) => {
+              return <Badge key={technologies}>{technologies}</Badge>;
+            })}
+          </div>
           <Divider className="my-4" />
           <h2 className="text-lg font-bold">Volunteering 👏🏽</h2>
           {RESUME_DATA.volunteering.map((volunteering) => {
@@ -250,20 +260,6 @@ export default function Page() {
               </Card>
             );
           })}
-          <Divider className="my-4" />
-          <h2 className="text-lg font-bold">Programming 🥷🏻</h2>
-          <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.programming.map((programming) => {
-              return <Badge key={programming}>{programming}</Badge>;
-            })}
-          </div>
-          <Divider className="my-4" />
-          <h2 className="text-lg font-bold">Technologies 🛠️</h2>
-          <div className="flex flex-wrap gap-1">
-            {RESUME_DATA.technologies.map((technologies) => {
-              return <Badge key={technologies}>{technologies}</Badge>;
-            })}
-          </div>
           <Divider className="my-4" />
           <h2 className="text-lg font-bold">Projects 🎓</h2>
           <div className="-mx-3 grid grid-cols-1 gap-3 print:grid-cols-3 print:gap-2 md:grid-cols-2 lg:grid-cols-3">

@@ -9,9 +9,9 @@ export const RESUME_DATA = {
   location: "Dallas, TX",
   locationLink: "https://www.google.com/maps/place/Dallas",
   title:
-    "Software Engineer",
+    "Senior Software Engineer",
   about:
-    "Highly skilled software developer with 10 years of experience in designing, developing, leading and maintaining data-intensive distributed systems and enterprise applications.",
+    "Software engineer with 10 years of experience designing, developing, and leading data-intensive distributed systems, cloud applications, and enterprise solutions.",
   avatarUrl: "https://avatars.githubusercontent.com/u/16794616",
   personalWebsiteUrl: "https://www.sooryaprasanna.com/",
   contact: {
@@ -30,13 +30,8 @@ export const RESUME_DATA = {
       },
       {
         name: "Resume",
-        url: "https://drive.google.com/file/d/1mZ3DEXcwKCfo20nPYC3KJAWVoJuorl5h/view",
+        url: "https://drive.google.com/file/d/1vHZLomBEVL8D8WxOZ-VQJJ-iBh9xiCmJ/view",
         icon: ResumeIcon,
-      },
-      {
-        name: "Portfolio",
-        url: "https://iamsoorya.blogspot.com/",
-        icon: Globe,
       },
     ],
   },
@@ -44,25 +39,23 @@ export const RESUME_DATA = {
     {
       company: "Goldman Sachs",
       link: "https://www.goldmansachs.com/careers/our-firm/engineering/",
-      title: "Vice President → Core Data Engineering",
+      title: "Vice President Software Engineer",
       start: "Jan 2021",
       end: "Present",
       description:
-        "Data Lake → Lead for the firm’s enterprise Data Lake platform, overseeing core services (ingest, sandbox, and simulator) to support reporting and analytics across ~160K unique datasets ingesting ~180K daily data pipelines.",
+        "Data Lake Engineering → Lead for the firm’s enterprise Data Lake platform, overseeing core services (ingest, sandbox and simulator) to support reporting and analytics across ~160K unique datasets ingesting ~180K daily data pipelines.",
       description2:
-        "Spearheaded the data & operational catalog, and built the ingest application using HBase, Flink, HDFS, and Hadoop YARN.",
+        "Spearheaded the data & operational catalog, and built the ingest framework using HBase, Flink, HDFS, AWS S3 and Hadoop YARN.",
       description3:
         "Streamlined SDLC and reduced time to production by 75% through the adoption of blue/green deployment strategy.",
       description4:
-        "Lakehouse → Lead Architect for Lake to Lakehouse migration, designing and implementing ingest migration architecture to enhance performance and reduce costs.",
+        "Core Data Engineering → Lead Architect for Lake to Lakehouse migration, designing and implementing ingest migration architecture to enhance performance and reduce costs.",
       description5:
-        "Engineered parallel ingest components, enabling dual ingest pipelines for seamless migration, enhancing scalability, and creating a failover environment for greater reliability.",
+        "Designed and implemented workflows to decommission 25% of Lake refiners & datastores, migrating unused data to cold storage and reducing quarterly storage costs by ~$500K.",
       description6:
-        "Designed and implemented workflows to decommission 25% of Lake refiners & datastores, migrating unused data to cold storage and cutting quarterly storage costs by ~$500K.",
+        "Engineered parallel ingest pipelines for seamless migration, improved scalability, and enhanced failover reliability.",
       description7:
-        "Collaborated with Snowflake Engineers to develop the Snowpark Migration Accelerator, streamlining refiner categorization and auto-migration to Lakehouse.",
-      description8:
-        "Managed and mentored junior and mid-level developers, providing regular coaching through 1:1 sessions and career development planning."
+        "Collaborated with Snowflake Engineers to develop the Snowpark Migration Accelerator, automating refiner categorization and streamlining  migration to Lakehouse.",
     },
     ],
     work2: [
@@ -84,9 +77,9 @@ export const RESUME_DATA = {
       start: "Nov 2017",
       end: "Dec 2019",
       description:
-        "Contributed to the core backend metadata services for data cataloging, ingest and refinement for early stage enterprise Data Lake platform.",
+        "Contributed to the core backend metadata services for data cataloging, ingestion, and refinement in an early-stage enterprise Data Lake; migrated ingest framework from MapReduce to Flink, reducing latency by 25% and memory usage by 33%.",
       description2:
-        "Migrated ingest framework from legacy MapReduce to Apache Flink, reducing data availability latency by 25% and optimizing memory usage by 33%.",
+        "Built a robust testing framework, standardized for 100% releases, ensuring stable deployments and minimizing post-release firefighting."
     },
   ],
   work3:[
@@ -97,9 +90,7 @@ export const RESUME_DATA = {
       start: "Jun 2017",
       end: "Oct 2017",
       description:
-        "Led the Big Data Club as primary instructor, guiding students through hands-on projects with Big data tools and technologies to enhance practical coding skills and understanding.",
-      description2:
-        "Developed and optimized course content, exercises, and learning pathways in collaboration with the Center for CS Education & Outreach to improve student engagement and mastery of big data concepts.",
+        "Led the Big Data Club as the primary instructor, designing hands-on projects, course content, and learning pathways in collaboration with the Center for CS Education & Outreach to enhance student engagement, coding skills, and Big Data mastery.",
     },
     {
       company: "Infosys, India",
@@ -108,9 +99,7 @@ export const RESUME_DATA = {
       start: "Sep 2013",
       end: "Jul 2015",
       description:
-        "Achieved 100% predictability by building an Emergency Alert Solution to warn communities under fire and flood danger in Australia.",
-      description2:
-        "Developed, optimized and delivered processed extracts on a Data Warehouse ETL platform → Network Decision Support Database for Telstra Corporation, Australia.",
+        "Developed a high-precision Emergency Alert Solution with 100% predictability, warning Australian communities of fire and flood hazards while delivering mission-critical ETL data to Telstra’s Network Decision Support Database.",
     },
     {
       company: "",
@@ -119,9 +108,7 @@ export const RESUME_DATA = {
       start: "Feb 2013",
       end: "May 2013",
       description:
-        "Developed Online Shopping Cart that markets seasonal clothes to customers based on their geolocation.",
-      description2:
-        "Rapidly prototyped new capabilities to ensure feasibility of the project.",
+        "Developed an online shopping website that markets seasonal clothes based on customer geolocation, rapidly prototyping new features to validate feasibility and user engagement.",
     },
   ],
   education: [
@@ -144,7 +131,6 @@ export const RESUME_DATA = {
     "JavaScript",
     "SQL",
     "Python",
-    "C++",
   ],
   technologies: [
     "AWS",
@@ -166,7 +152,6 @@ export const RESUME_DATA = {
     "Maven",
     "Gradle",
     "NoSQL",
-    "Mongo DB",
     "Bash Shell Script",
     "Pandas",
     "SAP Sybase IQ",
@@ -213,7 +198,7 @@ export const RESUME_DATA = {
       title: "CS Outreach Coordinator",
       start: "Summer 2016",
       description:
-        "Designed and facilitated programming workshops for middle and high school students to foster early interest in STEM, while encouraging informed career choices through exposure to computer programming concepts; provided guidance to college students, enhancing their programming skills, supporting coursework and projects, and helping them secure internships to improve job prospects and industry readiness.",
+        "Designed and led programming workshops for middle and high school students to foster STEM interest and informed career choices, while mentoring college students in programming, coursework, projects, and internships for industry readiness.",
     },
   ],
   projects: [
