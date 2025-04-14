@@ -93,44 +93,62 @@ export default function Page() {
             return (
               <Card key={work.company}>
                 <CardHeader>
-                  <div className="flex items-center gap-x-2 text-base">
+                  <div className="flex justify-between items-center text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base leading-relaxed">
                       <a className="hover:underline" href={work.link}                 
                       target="_blank"
                       rel="noopener noreferrer">
-                        {work.company}
+                        {work.company} -  {work.title}
                       </a>
                     </h3>
-                  </div>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
-                  <h4 className="text-sm leading-relaxed ">
-                    {work.title}
-                  </h4>
-                  <h4 className="text-xs leading-relaxed text-gray-500">
+                    <h4 className="text-xs leading-relaxed text-gray-500">
                     {work.start} - {work.end}
-                  </h4>
+                    </h4>
                   </div>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
                 <li> {work.description} </li>
                 </CardContent>
+              </Card>
+            );
+          })}
+          {RESUME_DATA.work1.map((work1) => {
+            return (
+              <Card key={work1.company}>
+                <CardHeader>
+                <div className="flex justify-between items-center text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base leading-relaxed">
+                      <a className="hover:underline" href={work1.link}                 
+                      target="_blank"
+                      rel="noopener noreferrer">
+                        {work1.company} -  {work1.title}
+                      </a>
+                    </h3>
+                    <h4 className="text-xs leading-relaxed text-gray-500">
+                    {work1.start} - {work1.end}
+                    </h4>
+                  </div>
+                </CardHeader>
                 <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
-                <div style={{ marginLeft: '20px' }}><li> {work.description2} </li></div>
+                <li> {work1.description} </li>
                 </CardContent>
                 <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
-                <div style={{ marginLeft: '20px' }}><li> {work.description3} </li></div>
+                <div style={{ marginLeft: '20px' }}><li> {work1.description2} </li></div>
                 </CardContent>
                 <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
-                <li> {work.description4} </li>
+                <div style={{ marginLeft: '20px' }}><li> {work1.description3} </li></div>
                 </CardContent>
                 <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
-                <div style={{ marginLeft: '20px' }}><li> {work.description5} </li></div>
+                <li> {work1.description4} </li>
                 </CardContent>
                 <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
-                <div style={{ marginLeft: '20px' }}><li> {work.description6} </li></div>
+                <div style={{ marginLeft: '20px' }}><li> {work1.description5} </li></div>
                 </CardContent>
                 <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
-                <div style={{ marginLeft: '20px' }}><li> {work.description7} </li></div>
+                <div style={{ marginLeft: '20px' }}><li> {work1.description6} </li></div>
+                </CardContent>
+                <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
+                <div style={{ marginLeft: '20px' }}><li> {work1.description7} </li></div>
                 </CardContent>
               </Card>
             );
@@ -139,22 +157,17 @@ export default function Page() {
             return (
               <Card key={work2.company}>
                 <CardHeader>
-                <div className="flex items-center gap-x-2 text-base">
+                <div className="flex justify-between items-center text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base leading-relaxed">
                       <a className="hover:underline" href={work2.link}                 
                       target="_blank"
                       rel="noopener noreferrer">
-                        {work2.company}
+                        {work2.company} -  {work2.title}
                       </a>
                     </h3>
-                  </div>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
-                  <h4 className="text-sm leading-relaxed">
-                    {work2.title}
-                  </h4>
-                  <h4 className="text-xs leading-relaxed text-gray-500">
+                    <h4 className="text-xs leading-relaxed text-gray-500">
                     {work2.start} - {work2.end}
-                  </h4>
+                    </h4>
                   </div>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
@@ -170,22 +183,17 @@ export default function Page() {
             return (
               <Card key={work3.company}>
                 <CardHeader>
-                  <div className="flex items-center gap-x-2 text-base">
+                <div className="flex justify-between items-center text-base">
                     <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base leading-relaxed">
                       <a className="hover:underline" href={work3.link}                 
                       target="_blank"
                       rel="noopener noreferrer">
-                        {work3.company}
+                        {work3.company} -  {work3.title}
                       </a>
                     </h3>
-                  </div>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
-                  <h4 className="text-sm leading-relaxed ">
-                    {work3.title}
-                  </h4>
-                  <h4 className="text-xs leading-relaxed text-gray-500">
+                    <h4 className="text-xs leading-relaxed text-gray-500">
                     {work3.start} - {work3.end}
-                  </h4>
+                    </h4>
                   </div>
                 </CardHeader>
                 <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
@@ -200,7 +208,7 @@ export default function Page() {
             return (
               <Card key={education.school}>
                 <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
+                  <div className="flex items-center justify-between text-base leading-relaxed">
                     <h3 className="font-semibold leading-relaxed">
                       {education.school}
                     </h3>
@@ -233,9 +241,14 @@ export default function Page() {
             return (
               <Card key={volunteering.title}>
                 <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base">
-                      {volunteering.title}
+                  <div className="flex items-center justify-between text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base leading-relaxed">
+                    <a className="hover:underline" href={volunteering.link}                 
+                      target="_blank"
+                      rel="noopener noreferrer">
+                        {volunteering.title}
+                      </a>
+                      
                     </h3>
                     <h4 className="text-xs text-gray-500">
                     {volunteering.start} - {volunteering.end}
@@ -252,8 +265,8 @@ export default function Page() {
             return (
               <Card key={volunteering2.title}>
                 <CardHeader>
-                  <div className="flex items-center justify-between gap-x-2 text-base">
-                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base">
+                  <div className="flex items-center justify-between text-base">
+                    <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold text-base leading-relaxed">
                       {volunteering2.title}
                     </h3>
                     <h4 className="text-xs text-gray-500">

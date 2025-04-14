@@ -30,18 +30,29 @@ export const RESUME_DATA = {
       },
       {
         name: "Resume",
-        url: "https://drive.google.com/file/d/1vHZLomBEVL8D8WxOZ-VQJJ-iBh9xiCmJ/view",
+        url: "https://drive.google.com/file/d/1qp6oo4xv54AFJYzyfzrsEx6DCWnHPw1d/view",
         icon: ResumeIcon,
       },
     ],
   },
   work: [
     {
+      company: "Microsoft",
+      link: "https://www.microsoft.com/en-us/security",
+      title: "Senior Software Engineer",
+      start: "Apr 2025",
+      end: "Present",
+      description:
+        "Security Intelligence Platform Services.",
+    },
+  ],
+  work1: [
+    {
       company: "Goldman Sachs",
       link: "https://www.goldmansachs.com/careers/our-firm/engineering/",
-      title: "Vice President Software Engineer",
+      title: "Vice President",
       start: "Jan 2021",
-      end: "Present",
+      end: "Apr 2025",
       description:
         "Data Lake Engineering → Lead for the firm’s enterprise Data Lake platform, overseeing core services (ingest, sandbox and simulator) to support reporting and analytics across ~160K unique datasets ingesting ~180K daily data pipelines.",
       description2:
@@ -57,7 +68,7 @@ export const RESUME_DATA = {
       description7:
         "Collaborated with Snowflake Engineers to develop the Snowpark Migration Accelerator, automating refiner categorization and streamlining  migration to Lakehouse.",
     },
-    ],
+  ],
     work2: [
     {
       company: "Goldman Sachs",
@@ -84,13 +95,13 @@ export const RESUME_DATA = {
   ],
   work3:[
     {
-      company: "The University of Texas at Dallas",
+      company: "UT Dallas",
       link: "https://cs.utdallas.edu/community/organizations/",
       title: "Curriculum Developer",
       start: "Jun 2017",
       end: "Oct 2017",
       description:
-        "Led the Big Data Club as the primary instructor, designing hands-on projects, course content, and learning pathways in collaboration with the Center for CS Education & Outreach to enhance student engagement, coding skills, and Big Data mastery.",
+        "Led the Big Data Club as the primary instructor, designing hands-on projects, course content, and learning pathways in collaboration with the Center for CS Education & Outreach at The University of Texas at Dallas (UTD) to enhance student engagement, coding skills, and Big Data mastery, earning the CS Outreach Excellence Award for impactful contributions.",
     },
     {
       company: "Infosys",
@@ -158,35 +169,40 @@ export const RESUME_DATA = {
   ],
   volunteering: [
     {
-      title: "Mentor → Goldman Sachs Emerging Leaders Series (ELS)",
+      title: "Goldman Sachs - Mentor for Emerging Leaders Series",
+      link: "https://www.goldmansachs.com/careers/students/programs-and-internships/americas/emerging-leaders-series",
       start: "2024",
       end: "2025",
       description:
         "Mentored sophomore students to cultivate essential industry skills that will help them become better engineers and explore opportunities at Goldman Sachs.",
     },
     {
-      title: "Mentor → Goldman Sachs BAI/HLAI Network",
+      title: "Goldman Sachs - Mentor for BAI/HLAI Network",
+      link: "https://www.goldmansachs.com/careers/life-at-goldman-sachs/training",
       start: "2021",
       end: "2025",
       description:
         "Mentored interns, junior and mid-level engineers through the Black Analyst Initiative and Hispanic/Latinx Analyst Initiative to promote diversity within Goldman Sachs.",
     },
     {
-      title: "GS Campus Recruiting Coordinator · North Americas",
+      title: "Goldman Sachs - Americas Campus Recruiting Coordinator",
+      link: "https://www.goldmansachs.com/careers/",
       start: "2019",
       end: "2025",
       description:
         "Led the recruiting team to identify, source, and hired 100+ engineering talents across the U.S. and Canada, ensuring alignment with business needs for the Goldman Sachs Engineering Division.",
     },
     {
-      title: "UT Dallas Scouting Team",
+      title: "UT Dallas Scouting Team - Team Lead",
+      link: "https://cs.utdallas.edu/25491/hackutd-viii-8-2021/",
       start: "2020",
       end: "2025",
       description:
-        "Organized Hackathons and various engineering events at The University of Texas at Dallas leading Goldman Sachs Engineers.",
+        "Led engineering events and hackathons at UT Dallas in collaboration with Goldman Sachs engineers.",
     },
     {
-      title: "Big Data Instructor · UT Dallas",
+      title: "UT Dallas - Big Data Instructor",
+      link: "https://cs.utdallas.edu/community/organizations/",
       start: "2016",
       end: "2017",
       description:
@@ -195,7 +211,7 @@ export const RESUME_DATA = {
   ],
   volunteering2: [
     {
-      title: "CS Outreach Coordinator",
+      title: "UT Dallas - CS Outreach Coordinator",
       start: "Summer 2016",
       description:
         "Designed and led programming workshops for middle and high school students to foster STEM interest and informed career choices, while mentoring college students in programming, coursework, projects, and internships for industry readiness.",
@@ -260,7 +276,7 @@ export const RESUME_DATA = {
         "PLSQL",
         "Design",
       ],
-      description: "Designed a complete database for a car rental system with all the features. Database was designed using PLSQL",
+      description: "Designed a complete database for a car rental system with all the features. Database was designed using PLSQL.",
       link: {
         label: "",
         href: "https://github.com/sooryaprasanna/Car-Rental-System",
