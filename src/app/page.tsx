@@ -109,6 +109,12 @@ export default function Page() {
                 <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
                 <li> {work.description} </li>
                 </CardContent>
+                <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
+                <div style={{ marginLeft: '20px' }}><li> {work.description2} </li></div>
+                </CardContent>
+                <CardContent className="mt-2 text-xs" style={{ textAlign: 'justify' }}>
+                <div style={{ marginLeft: '20px' }}><li> {work.description3} </li></div>
+                </CardContent>
               </Card>
             );
           })}

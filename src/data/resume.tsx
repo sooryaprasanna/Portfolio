@@ -30,7 +30,7 @@ export const RESUME_DATA = {
       },
       {
         name: "Resume",
-        url: "https://drive.google.com/file/d/1qp6oo4xv54AFJYzyfzrsEx6DCWnHPw1d/view",
+        url: "https://drive.google.com/file/d/1g7d6v0ero6SoBwH2vmoQn1b7NwmB5JuP/view",
         icon: ResumeIcon,
       },
     ],
@@ -43,7 +43,11 @@ export const RESUME_DATA = {
       start: "Apr 2025",
       end: "Present",
       description:
-        "Security Intelligence Platform Services.",
+        "Data Engineering → Security Intelligence Platform Services",
+      description2:
+        "Developing and optimizing high-performance data pipelines for Threat Intelligence Services on Azure, delivering intelligence that enhances security operations across Microsoft's ecosystem.",
+      description3:
+        "Architecting data solutions that enable integration with key services, including Microsoft Sentinel Graph (MSG) and Defender External Attack Surface Management (EASM), empowering proactive security insights and threat mitigation.",
     },
   ],
   work1: [
@@ -145,6 +149,7 @@ export const RESUME_DATA = {
   ],
   technologies: [
     "AWS",
+    "Azure",
     "Flink",
     "HDFS",
     "HBase",
