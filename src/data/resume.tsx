@@ -15,7 +15,7 @@ export const RESUME_DATA = {
   avatarUrl: "https://avatars.githubusercontent.com/u/16794616",
   personalWebsiteUrl: "https://www.sooryaprasanna.com/",
   contact: {
-    email: "spr.jobs@outlook.com",
+    email: "",
     tel: "",
     social: [
       {
@@ -43,11 +43,11 @@ export const RESUME_DATA = {
       start: "Apr 2025",
       end: "Present",
       description:
-        "Data Engineering → Security Intelligence Platform Services",
+        "Data Engineering → Microsoft Sentinel Graph",
       description2:
-        "Developing and optimizing high-performance data pipelines for Threat Intelligence Services on Azure, delivering intelligence that enhances security operations across Microsoft's ecosystem.",
+        "Leading development of scalable, high-performance data pipelines for Threat Intelligence on Azure, powering mission-critical services including Global Inventory, Discovery, and Risk Reporting.",
       description3:
-        "Architecting data solutions that enable integration with key services, including Microsoft Sentinel Graph (MSG) and Defender External Attack Surface Management (EASM), empowering proactive security insights and threat mitigation.",
+        "Designing real-time data integrations with Microsoft Sentinel Graph (MSG) and Defender EASM, enabling proactive threat detection and enhancing security posture across Microsoft’s global ecosystem.",
     },
   ],
   work1: [
@@ -148,29 +148,30 @@ export const RESUME_DATA = {
     "Python",
   ],
   technologies: [
-    "AWS",
     "Azure",
+    "AWS",
     "Flink",
     "HDFS",
     "HBase",
-    "Iceberg",
+    "Spark",
+    "MapReduce",
     "Kafka",
+    "Iceberg",
     "Snowflake",
     "Apache Avro",
     "Apache Parquet",
-    "MapReduce",
-    "Spark",
     "Hive",
     "REST",
     "JUnit",
     "CI/CD",
     "Git",
+    "Azure DevOps",
     "Maven",
     "Gradle",
     "NoSQL",
-    "Bash Shell Script",
-    "Pandas",
-    "SAP Sybase IQ",
+    "Bash",
+    "PowerShell",
+    "Pandas"
   ],
   volunteering: [
     {
