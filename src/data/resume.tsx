@@ -11,7 +11,7 @@ export const RESUME_DATA = {
   title:
     "Senior Software Engineer",
   about:
-    "Software engineer with 10 years of experience designing, developing, and leading data-intensive distributed systems, cloud applications, and enterprise solutions.",
+    "Software engineer with 10+ years of experience architecting, designing, and building scalable, cloud-native data platforms and AI-driven security solutions. Expert in distributed systems, data lakes, real-time data processing, and data pipeline automation.",
   avatarUrl: "https://avatars.githubusercontent.com/u/16794616",
   personalWebsiteUrl: "https://www.sooryaprasanna.com/",
   contact: {
@@ -30,7 +30,7 @@ export const RESUME_DATA = {
       },
       {
         name: "Resume",
-        url: "https://drive.google.com/file/d/1g7d6v0ero6SoBwH2vmoQn1b7NwmB5JuP/view",
+        url: "https://drive.google.com/file/d/1WbDbIKjJshJWAi49ycHLBqvCbIGyMZFa/view",
         icon: ResumeIcon,
       },
     ],
@@ -38,16 +38,16 @@ export const RESUME_DATA = {
   work: [
     {
       company: "Microsoft",
-      link: "https://www.microsoft.com/en-us/security",
+      link: "https://www.microsoft.com/en-us/security/business/siem-and-xdr/microsoft-sentinel/",
       title: "Senior Software Engineer",
       start: "Apr 2025",
       end: "Present",
       description:
-        "Data Engineering → Microsoft Sentinel Graph",
+        "Data Engineering → Microsoft Sentinel",
       description2:
-        "Leading development of scalable, high-performance data pipelines for Threat Intelligence on Azure, powering mission-critical services including Global Inventory, Discovery, and Risk Reporting.",
+        "Leading development of scalable, high-performance data pipelines on Microsoft Azure, building AI-driven Threat Intelligence services such as Global Inventory, Discovery, and Risk Reporting.",
       description3:
-        "Designing real-time data integrations with Microsoft Sentinel Graph (MSG) and Defender EASM, enabling proactive threat detection and enhancing security posture across Microsoft’s global ecosystem.",
+        "Designing and building AI-powered real-time data integrations within Microsoft Sentinel’s core components (Sentinel Graph, Sentinel Data Lake, and Defender EASM) to enable proactive threat detection and strengthen enterprise security posture.",
     },
   ],
   work1: [
