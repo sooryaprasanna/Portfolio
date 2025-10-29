@@ -58,11 +58,11 @@ export const RESUME_DATA = {
       start: "Jan 2021",
       end: "Apr 2025",
       description:
-        "Data Lake Engineering → Lead for the firm’s enterprise Data Lake platform, overseeing core services (ingest, sandbox and simulator) to support reporting and analytics across ~160K unique datasets ingesting ~180K daily data pipelines.",
+        "Data Lake Engineering → Lead for the firm’s enterprise Data Lake platform, overseeing core services (ingest, sandbox and simulator) to support reporting and analytics across ~160K unique datasets ingesting ~450K daily data pipelines.",
       description2:
         "Spearheaded the data & operational catalog, and built the ingest framework using HBase, Flink, HDFS, AWS S3 and Hadoop YARN.",
       description3:
-        "Streamlined SDLC and reduced time to production by 75% through the adoption of blue/green deployment strategy.",
+        "Developed a production-like simulation test framework that preemptively caught bugs, reducing post-deployment defects by 75% and enabling first-time-right releases.",
       description4:
         "Core Data Engineering → Lead Architect for Lake to Lakehouse migration, designing and implementing ingest migration architecture to enhance performance and reduce costs.",
       description5:
@@ -70,7 +70,7 @@ export const RESUME_DATA = {
       description6:
         "Engineered parallel ingest pipelines for seamless migration, improved scalability, and enhanced failover reliability.",
       description7:
-        "Collaborated with Snowflake Engineers to develop the Snowpark Migration Accelerator, automating refiner categorization and streamlining  migration to Lakehouse.",
+        "Collaborated with Snowflake Engineers to develop the Snowpark Migration Accelerator, automating refiner categorization and streamlining migration to Lakehouse.",
     },
   ],
     work2: [
