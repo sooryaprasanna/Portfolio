@@ -30,7 +30,7 @@ export const RESUME_DATA = {
       },
       {
         name: "Resume",
-        url: "https://drive.google.com/file/d/1nKCo1pZ_fUlSYD4YG8ZI092J7dXxb09s/view",
+        url: "https://1drv.ms/b/c/8244473ead7cecc3/IQBKKT90JzxyS52UtSykZ0CnAelUIT1FPu-xq-T-U0w52dE?e=qGfMLM",
         icon: ResumeIcon,
       },
     ],
@@ -43,11 +43,13 @@ export const RESUME_DATA = {
       start: "Apr 2025",
       end: "Present",
       description:
-        "Data Engineering → Microsoft Sentinel",
+        "Data Engineering → Exposure Management",
       description2:
-        "Leading development of scalable, high-performance data pipelines on Microsoft Azure, building AI-driven Threat Intelligence services such as Global Inventory, Discovery, and Risk Reporting.",
+        "Leading infrastructure scaling strategy for 10x load increase across HBase, Solr, Hadoop and Azure services to support 180k enterprise tenants, designing critical bottleneck pipelines.",
       description3:
-        "Designing and building AI-powered real-time data integrations within Microsoft Sentinel’s core components (Sentinel Graph, Sentinel Data Lake, and Defender EASM) to enable proactive threat detection and strengthen enterprise security posture.",
+        "Architected Global Insights to Lake initiative end-to-end, defining scalable ingestion architecture and implementing core components including label-derived applicability model and metadata dataset.",
+      description4:
+        "Implemented guardrails in Microsoft’s Discovery services to prevent high-blast radius blocking events, validating safety across 81 million IPs and reducing operational risk."
     },
   ],
   work1: [
